@@ -1,0 +1,118 @@
+#######################################
+# Modbus Library Keywords
+####################################### 
+
+# Datatype
+
+Modbus	                                KEYWORD1
+Type	                                KEYWORD1
+Response                                KEYWORD1
+Address	                                KEYWORD1
+ModbusMaster	                        KEYWORD1
+ModbusMasterTCP	                        KEYWORD1
+ModbusMasterRTU	                        KEYWORD1
+ModbusSlaveIO	                        KEYWORD1
+ModbusSlaveIOTCP                        KEYWORD1
+ModbusSlaveIORTU                        KEYWORD1
+ModbusSlaveBase                         KEYWORD1
+ModbusSlave	                            KEYWORD1
+ModbusSlaveTCP	                        KEYWORD1
+ModbusSlaveRTU	                        KEYWORD1
+ModbusSlaveBridge                       KEYWORD1
+ModbusSlaveBridgeTCP	                KEYWORD1
+ModbusSlaveBridgeRTU	                KEYWORD1
+
+# Methods and Functions 
+
+GET_BIT	                                KEYWORD2
+SET_BIT	                                KEYWORD2
+GET_BITS	                            KEYWORD2
+SET_BITS	                            KEYWORD2
+crc16	                                KEYWORD2
+lrc	                                    KEYWORD2
+printBytes	                            KEYWORD2
+getBit	                                KEYWORD2
+setBit	                                KEYWORD2
+getBits	                                KEYWORD2
+setBits	                                KEYWORD2
+
+readCoilStatus                          KEYWORD2
+readInputStatus                         KEYWORD2
+readHoldingRegisters                    KEYWORD2
+readInputRegisters                      KEYWORD2
+forceSingleCoil                         KEYWORD2
+forceSingleRegister                     KEYWORD2
+forceMultipleCoils                      KEYWORD2
+forceMultipleRegisters                  KEYWORD2
+
+# Constants
+
+MODBUSLIB_VERSION_MAJOR                 LITERAL1
+MODBUSLIB_VERSION_MINOR                 LITERAL1
+MODBUSLIB_VERSION_PATCH                 LITERAL1
+MODBUSLIB_VERSION_STR                   LITERAL1
+
+MB_NULLPTR                              LITERAL1
+
+MBF_READ_COIL_STATUS                    LITERAL1             
+MBF_READ_INPUT_STATUS                   LITERAL1               
+MBF_READ_HOLDING_REGISTERS              LITERAL1            
+MBF_READ_INPUT_REGISTERS                LITERAL1             
+MBF_FORCE_SINGLE_COIL                   LITERAL1             
+MBF_FORCE_SINGLE_REGISTER               LITERAL1             
+MBF_READ_EXCEPTION_STATUS               LITERAL1          
+MBF_LOOPBACK_DIAGNOSTIC_TEST            LITERAL1         
+MBF_PROGRAM484                          LITERAL1                
+MBF_POLL484                             LITERAL1
+MBF_FETCH_EVENT_COUNTER_COMMUNICATIONS  LITERAL1
+MBF_FETCH_COMMUNICATION_EVENT_LOG       LITERAL1
+MBF_PROGRAM                             LITERAL1
+MBF_POOL_PROGRAM_COMPLETE               LITERAL1
+MBF_FORCE_MULTIPLE_COILS                LITERAL1
+MBF_FORCE_MULTIPLE_REGISTERS            LITERAL1
+MBF_REPORT_SLAVE_ID                     LITERAL1
+MBF_RESET_COMMUNICATIONS_LINK           LITERAL1
+MBF_READ_GENERAL_REFERENCE              LITERAL1
+MBF_WRITE_GENERAL_REFERENCE             LITERAL1
+MBF_MASK_WRITE_4X_REGISTER              LITERAL1
+MBF_READ_WRITE_4X_REGISTER              LITERAL1
+MBF_READ_FIFO_QUEUE                     LITERAL1
+MBF_ILLEGAL_FUNCTION                    LITERAL1
+MBF_EXCEPTION                           LITERAL1
+
+VALID_MODBUS_ADDRESS_BEGIN              LITERAL1
+VALID_MODBUS_ADDRESS_END                LITERAL1
+STANDARD_TCP_PORT                       LITERAL1
+ 
+ASC                                     LITERAL1
+RTU                                     LITERAL1
+TCP                                     LITERAL1
+
+PROCESSING	                            LITERAL1
+OK	                                    LITERAL1
+ILLEGAL_FUNCTION	                    LITERAL1
+ILLEGAL_DATA_ADDRESS	                LITERAL1
+ILLEGAL_DATA_VALUE	                    LITERAL1
+SLAVE_DEVICE_FAILURE	                LITERAL1
+ACKNOWLEDGE	                            LITERAL1
+SLAVE_DEVICE_BUSY	                    LITERAL1
+NEGATIVE_ACKNOWLEDGE	                LITERAL1
+MEMORY_PARITY_ERROR	                    LITERAL1
+CMN_ERR_NO_RESPONSE	                    LITERAL1
+CMN_ERR_NOT_CORRECT	                    LITERAL1
+CMN_ERR_READ_BUFF_OVERFLOW	            LITERAL1
+CMN_ERR_WRITE_BUFF_OVERFLOW	            LITERAL1
+SERIAL_ERR_OPEN	                        LITERAL1
+SERIAL_ERR_READ	                        LITERAL1
+SERIAL_ERR_WRITE	                    LITERAL1
+ASCII_ERR_MISS_COLON	                LITERAL1
+ASCII_ERR_MISS_CRLF	                    LITERAL1
+ASCII_ERR_BAD_CHAR	                    LITERAL1
+ASCII_ERR_LRC	                        LITERAL1
+RTU_ERR_CRC	                            LITERAL1
+TCP_ERR_CONNECT	                        LITERAL1
+TCP_ERR_RECV	                        LITERAL1
+TCP_ERR_SEND	                        LITERAL1
+TCP_ERR_DISCONNECT	                    LITERAL1
+UNKNOWN_ERROR	                        LITERAL1
+TCP_ERR_SERVER	                        LITERAL1
