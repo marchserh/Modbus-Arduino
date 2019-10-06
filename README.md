@@ -57,14 +57,14 @@ public:
 ```
 
 It defines an interface for commonly used 8 modbus functions:
-* 01 (0x01)  readCoilStatus          - read memory 000001+ (coils/discrete outputs)
-* 02 (0x02)  readInputStatus         - read memory 100001+ (discrete inputs)
-* 03 (0x03)  readHoldingRegisters    - read memory 400001+ (holding registers/anlaog outputs)
-* 04 (0x04)  readInputRegisters      - read memory 300001+ (input registers/analog inputs)
-* 05 (0x05)  forceSingleCoil         - write single bit value to memory cell with address 000001+
-* 06 (0x06)  forceSingleRegister     - write single 16 bit register's value to memory 400001+
-* 15 (0x0F)  forceMultipleCoils      - write bit values to memory 000001+
-* 16 (0x10)  forceMultipleRegisters  - write 16 bit register's values to memory 400001+
+* `01 (0x01) readCoilStatus`          - read memory 000001+ (coils/discrete outputs)
+* `02 (0x02) readInputStatus`         - read memory 100001+ (discrete inputs)
+* `03 (0x03) readHoldingRegisters`    - read memory 400001+ (holding registers/anlaog outputs)
+* `04 (0x04) readInputRegisters`      - read memory 300001+ (input registers/analog inputs)
+* `05 (0x05) forceSingleCoil`         - write single bit value to memory cell with address 000001+
+* `06 (0x06) forceSingleRegister`     - write single 16 bit register's value to memory 400001+
+* `15 (0x0F) forceMultipleCoils`      - write bit values to memory 000001+
+* `16 (0x10) forceMultipleRegisters`  - write 16 bit register's values to memory 400001+
       
 ### `ModbusMemory` class
 
