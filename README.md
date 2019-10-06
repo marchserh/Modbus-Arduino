@@ -36,7 +36,7 @@ This is main header file. It defines common constants and functions for library 
 * `Modbus`-namespace with enumeration types (such as `Modbus::Response` - returned type of ModbusInterface functions),
   helper functions:
   - control bit functions: `Modbus::getBit, Modbus::setBit, Modbus::getBits, Modbus::setBits`,
-  - control sum functions: ``Modbus::crc16 (for RTU-mode), `Modbus::lrc` (for ASCII-mode).
+  - control sum functions: `Modbus::crc16` (for RTU-mode), `Modbus::lrc` (for ASCII-mode).
 * `ModbusInterface` base class. 
 
 ### `ModbusInterface` base class
@@ -75,11 +75,11 @@ It has function to read/write bits/registers and `copy`-function to inner copy b
 from one type of memory to another.
 
 ### Common classes
-* ModbusMasterTCP - used to make requests to remote TCP slave(server) to read/write data
-* ModbusMasterRTU - used to make requests to remote slave(server) via serial port to read/write data
-* ModbusSlaveTCP  - provide services to read/write data via Modbus TCP/IP protocol
-* ModbusSlaveRTU  - provide services to read/write data via serial port on Modbus RTU protocol
-* ModbusSlaveBridgeRTU and ModbusSlaveBridgeTCP - provide bridge (protocol converter) functionality
+* `ModbusMasterTCP` - used to make requests to remote TCP slave(server) to read/write data
+* `ModbusMasterRTU` - used to make requests to remote slave(server) via serial port to read/write data
+* `ModbusSlaveTCP`  - provide services to read/write data via Modbus TCP/IP protocol
+* `ModbusSlaveRTU`  - provide services to read/write data via serial port on Modbus RTU protocol
+* `ModbusSlaveBridgeRTU` and `ModbusSlaveBridgeTCP` - provide bridge (protocol converter) functionality
 
 
 ## Examples
