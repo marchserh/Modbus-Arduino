@@ -69,7 +69,7 @@ It defines an interface for commonly used 8 modbus functions:
 ### `ModbusMemory` class
 
 Used to control Modbus-memory.
-It uses 1 bit memory to store coil or discrete input value and 16 bits to store holding and intput registers
+It uses 1 bit memory to store coil or discrete input value and 16 bits to store holding and input registers
 
 It has function to read/write bits/registers and `copy`-function to inner copy bit and registers 
 from one type of memory to another.
